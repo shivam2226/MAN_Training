@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>cmdb_ci</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_1757718_man_tr_0_man_asset_request</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual>active=true</reference_qual>
+        <reference_qual_override>true</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-22 10:04:29</sys_created_on>
+        <sys_id>2d89dea083d24f1066d79850ceaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci</sys_name>
+        <sys_package display_value="MAN Training " source="x_1757718_man_tr_0">c52fb8d083d68b1066d79850ceaad346</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MAN Training ">c52fb8d083d68b1066d79850ceaad346</sys_scope>
+        <sys_update_name>sys_dictionary_override_2d89dea083d24f1066d79850ceaad384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-22 10:04:29</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MAN Training ">c52fb8d083d68b1066d79850ceaad346</application>
+        <file_path/>
+        <instance_id>cc4ccddfdb4639d0ebdd2a59139619cd</instance_id>
+        <instance_name>dev196261</instance_name>
+        <name>sys_dictionary_override_2d89dea083d24f1066d79850ceaad384</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>cmdb_ci</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_1757718_man_tr_0_man_asset_request</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual>active=true</reference_qual><reference_qual_override>true</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-22 10:04:29</sys_created_on><sys_id>2d89dea083d24f1066d79850ceaad384</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cmdb_ci</sys_name><sys_package display_value="MAN Training " source="x_1757718_man_tr_0">c52fb8d083d68b1066d79850ceaad346</sys_package><sys_policy/><sys_scope display_value="MAN Training ">c52fb8d083d68b1066d79850ceaad346</sys_scope><sys_update_name>sys_dictionary_override_2d89dea083d24f1066d79850ceaad384</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-22 10:04:29</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>1814878656</payload_hash>
+        <record_name>cmdb_ci</record_name>
+        <reverted_from/>
+        <source>5940819483d68b1066d79850ceaad32c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-22 10:04:29</sys_created_on>
+        <sys_id>d04a962483d24f1066d79850ceaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f8948ac870000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-22 10:04:29</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>904a96242fd24f10679f0a98227972a1</update_guid>
+        <update_guid_history>904a96242fd24f10679f0a98227972a1:1814878656</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-22 10:09:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>0813cabba4ac4ac080862d8c00cd4c10</sys_id>
+        <sys_metadata>2d89dea083d24f1066d79850ceaad384</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci</sys_name>
+        <sys_package display_value="MAN Training " source="x_1757718_man_tr_0">c52fb8d083d68b1066d79850ceaad346</sys_package>
+        <sys_parent display_value="">176209d883d68b1066d79850ceaad393</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MAN Training ">c52fb8d083d68b1066d79850ceaad346</sys_scope>
+        <sys_scope_delete display_value="">62677742e387486086cb465e7fbe8400</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_2d89dea083d24f1066d79850ceaad384</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_2d89dea083d24f1066d79850ceaad384">d04a962483d24f1066d79850ceaad3a2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-22 10:09:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

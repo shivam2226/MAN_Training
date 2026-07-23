@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-22 04:50:29</sys_created_on>
+        <sys_id>4852dd6c835a0f1066d79850ceaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1757718_man_tr_0_man_asset_request.x_1757718_man_tr_0.x_vw_man_developer</sys_name>
+        <sys_package display_value="MAN Training " source="x_1757718_man_tr_0">c52fb8d083d68b1066d79850ceaad346</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MAN Training ">c52fb8d083d68b1066d79850ceaad346</sys_scope>
+        <sys_security_acl display_value="x_1757718_man_tr_0_man_asset_request">b17289d883d68b1066d79850ceaad3fb</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4852dd6c835a0f1066d79850ceaad30c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-22 04:50:29</sys_updated_on>
+        <sys_user_role display_value="x_1757718_man_tr_0.x_vw_man_developer" name="x_1757718_man_tr_0.x_vw_man_developer">0120d568835a0f1066d79850ceaad31c</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MAN Training ">c52fb8d083d68b1066d79850ceaad346</application>
+        <file_path/>
+        <instance_id>cc4ccddfdb4639d0ebdd2a59139619cd</instance_id>
+        <instance_name>dev196261</instance_name>
+        <name>sys_security_acl_role_4852dd6c835a0f1066d79850ceaad30c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-22 04:50:29</sys_created_on><sys_id>4852dd6c835a0f1066d79850ceaad30c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1757718_man_tr_0_man_asset_request.x_1757718_man_tr_0.x_vw_man_developer</sys_name><sys_package display_value="MAN Training " source="x_1757718_man_tr_0">c52fb8d083d68b1066d79850ceaad346</sys_package><sys_policy/><sys_scope display_value="MAN Training ">c52fb8d083d68b1066d79850ceaad346</sys_scope><sys_security_acl display_value="x_1757718_man_tr_0_man_asset_request">b17289d883d68b1066d79850ceaad3fb</sys_security_acl><sys_update_name>sys_security_acl_role_4852dd6c835a0f1066d79850ceaad30c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-22 04:50:29</sys_updated_on><sys_user_role display_value="x_1757718_man_tr_0.x_vw_man_developer" name="x_1757718_man_tr_0.x_vw_man_developer">0120d568835a0f1066d79850ceaad31c</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>482138608</payload_hash>
+        <record_name>x_1757718_man_tr_0_man_asset_request.x_1757718_man_tr_0.x_vw_man_developer</record_name>
+        <reverted_from/>
+        <source>5940819483d68b1066d79850ceaad32c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-22 04:50:29</sys_created_on>
+        <sys_id>f86215ac835a0f1066d79850ceaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f8829330c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-22 04:50:29</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>b86215ac8e5a0f10b69cea74276a0a9f</update_guid>
+        <update_guid_history>b86215ac8e5a0f10b69cea74276a0a9f:482138608</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1757718_man_tr_0_man_asset_request.x_1757718_man_tr_0.x_vw_man_developer">4500626083164f1066d79850ceaad308</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-22 10:29:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>269b77f75bd14650a4bbe09d82c8e9b1</sys_id>
+        <sys_metadata>4852dd6c835a0f1066d79850ceaad30c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1757718_man_tr_0_man_asset_request.x_1757718_man_tr_0.x_vw_man_developer</sys_name>
+        <sys_package display_value="MAN Training " source="x_1757718_man_tr_0">c52fb8d083d68b1066d79850ceaad346</sys_package>
+        <sys_parent display_value="x_1757718_man_tr_0_man_asset_request">b17289d883d68b1066d79850ceaad3fb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MAN Training ">c52fb8d083d68b1066d79850ceaad346</sys_scope>
+        <sys_scope_delete display_value="">62677742e387486086cb465e7fbe8400</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_4852dd6c835a0f1066d79850ceaad30c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_4852dd6c835a0f1066d79850ceaad30c">f86215ac835a0f1066d79850ceaad3a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-22 10:29:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

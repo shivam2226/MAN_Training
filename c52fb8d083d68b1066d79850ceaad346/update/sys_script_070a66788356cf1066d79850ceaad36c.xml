@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -18,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Auto-fill short description</name>
+        <name>Autofill short desc using script include</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -30,30 +30,31 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
     // Add your code here
-	//Created By : Shivam Dighe
-	//Created On : 21/07/2026
-	//Purpose : To auto-populate short-description field with asset type requested for which user.
-    current.short_description = current.asset_type + ' request for ' + current.requested_for.getDisplayValue();
+    // Created By : Shivam Dighe
+    // Created On : 23/07/2026
+    // Purpose : To auto-fill the short description value using the global scoped script include
 
+    var u = new global.MANGlobalUtils();
+    current.short_description = u.buildTag(current.asset_type, current.number);
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-07-21 09:48:03</sys_created_on>
+        <sys_created_on>2026-07-23 05:55:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>e03c8d10835a8b1066d79850ceaad3be</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Auto-fill short description</sys_name>
+        <sys_id>070a66788356cf1066d79850ceaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Autofill short desc using script include</sys_name>
         <sys_overrides/>
         <sys_package display_value="MAN Training " source="x_1757718_man_tr_0">c52fb8d083d68b1066d79850ceaad346</sys_package>
         <sys_policy/>
         <sys_scope display_value="MAN Training ">c52fb8d083d68b1066d79850ceaad346</sys_scope>
-        <sys_update_name>sys_script_e03c8d10835a8b1066d79850ceaad3be</sys_update_name>
+        <sys_update_name>sys_script_070a66788356cf1066d79850ceaad36c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-23 05:51:55</sys_updated_on>
+        <sys_updated_on>2026-07-23 05:55:08</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=e03c8d10835a8b1066d79850ceaad3be"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=070a66788356cf1066d79850ceaad36c"/>
 </record_update>

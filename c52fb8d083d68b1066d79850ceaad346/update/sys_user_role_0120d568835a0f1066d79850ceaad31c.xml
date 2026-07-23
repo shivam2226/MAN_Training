@@ -4,7 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>Can read and edit MAN Asset Records</description>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>jKFvnrafSmTqcSc1+zzD+LA+s8RFaT0CiZZfmsjxkFg=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_1757718_man_tr_0.x_vw_man_developer</name>
