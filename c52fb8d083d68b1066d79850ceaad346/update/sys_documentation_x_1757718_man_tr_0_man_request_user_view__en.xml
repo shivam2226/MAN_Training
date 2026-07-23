@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Man tr 0 man request user view" language="en" table="x_1757718_man_tr_0_man_request_user_view">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Man tr 0 man request user view</label>
+            <language>en</language>
+            <name>x_1757718_man_tr_0_man_request_user_view</name>
+            <plural>Man tr 0 man request user views</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-23 04:10:39</sys_created_on>
+            <sys_id>4fd29a788392cf1066d79850ceaad38a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Man tr 0 man request user view</sys_name>
+            <sys_package display_value="MAN Training " source="x_1757718_man_tr_0">c52fb8d083d68b1066d79850ceaad346</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MAN Training ">c52fb8d083d68b1066d79850ceaad346</sys_scope>
+            <sys_update_name>sys_documentation_x_1757718_man_tr_0_man_request_user_view__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-23 04:10:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

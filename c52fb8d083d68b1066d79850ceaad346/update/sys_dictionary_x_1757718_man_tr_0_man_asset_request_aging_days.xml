@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="estimated_cost" table="x_1757718_man_tr_0_man_asset_request">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="aging_days" table="x_1757718_man_tr_0_man_asset_request">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+    // Add your code here
+
+    // Created By : Shivam Dighe
+    // Created On : 22/07/2026
+    // Purpose : To calculate the total days from the day on which record was created
+
+    var created = new GlideDateTime(current.sys_created_on);
+    var now = new GlideDateTime();
+
+    var diff = GlideDateTime.subtract(created , now);
+
+    answer = Math.floor(diff.getNumericValue() / 86400000);
+
+    return answer;
+
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Estimated Cost</column_label>
+        <column_label>Aging (days)</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,13 +38,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>estimated_cost</element>
+        <element>aging_days</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Currency">currency</internal_type>
+        <internal_type display_value="Integer">integer</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_1757718_man_tr_0_man_asset_request</name>
@@ -46,22 +63,22 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-07-21 09:21:04</sys_created_on>
-        <sys_id>26b6c914831a8b1066d79850ceaad387</sys_id>
-        <sys_name>Estimated Cost</sys_name>
+        <sys_created_on>2026-07-22 16:33:18</sys_created_on>
+        <sys_id>8043fbe4839e4f1066d79850ceaad3d2</sys_id>
+        <sys_name>Aging (days)</sys_name>
         <sys_package display_value="MAN Training " source="x_1757718_man_tr_0">c52fb8d083d68b1066d79850ceaad346</sys_package>
         <sys_policy/>
         <sys_scope display_value="MAN Training ">c52fb8d083d68b1066d79850ceaad346</sys_scope>
-        <sys_update_name>sys_dictionary_x_1757718_man_tr_0_man_asset_request_estimated_cost</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1757718_man_tr_0_man_asset_request_aging_days</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-23 03:50:28</sys_updated_on>
+        <sys_updated_on>2026-07-22 17:05:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>

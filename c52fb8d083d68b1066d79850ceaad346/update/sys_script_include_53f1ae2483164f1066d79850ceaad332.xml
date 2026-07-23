@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1757718_man_tr_0.MANAssetRefQual</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>MANAssetRefQual</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var MANAssetRefQual = Class.create();
+MANAssetRefQual.prototype = {
+    initialize: function() {},
+
+    //Created By : Shivam Dighe
+    //Created On : 22/07/2026
+    //Purpose : To filter the reference records to exclude the retired CIs and restricts to software packages if the asset type is software
+
+    byAssetType: function(current) {
+        var q = 'install_status!=7';
+        if (current.asset_type == 'software')
+            q += '^sys_class_name=cmdb_ci_spkg';
+        return q;
+    },
+
+
+    type: 'MANAssetRefQual'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-22 10:44:51</sys_created_on>
+        <sys_id>53f1ae2483164f1066d79850ceaad332</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>MANAssetRefQual</sys_name>
+        <sys_package display_value="MAN Training " source="x_1757718_man_tr_0">c52fb8d083d68b1066d79850ceaad346</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="MAN Training ">c52fb8d083d68b1066d79850ceaad346</sys_scope>
+        <sys_update_name>sys_script_include_53f1ae2483164f1066d79850ceaad332</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-22 10:52:02</sys_updated_on>
+    </sys_script_include>
+</record_update>

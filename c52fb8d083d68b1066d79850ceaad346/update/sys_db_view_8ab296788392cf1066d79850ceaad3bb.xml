@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view">
+    <sys_db_view action="INSERT_OR_UPDATE">
+        <description>This view is to join the MAN Asset Request table with the user table</description>
+        <label/>
+        <name>x_1757718_man_tr_0_man_request_user_view</name>
+        <plural/>
+        <sys_class_name>sys_db_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-23 04:10:38</sys_created_on>
+        <sys_id>8ab296788392cf1066d79850ceaad3bb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1757718_man_tr_0_man_request_user_view</sys_name>
+        <sys_package display_value="MAN Training " source="x_1757718_man_tr_0">c52fb8d083d68b1066d79850ceaad346</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MAN Training ">c52fb8d083d68b1066d79850ceaad346</sys_scope>
+        <sys_update_name>sys_db_view_8ab296788392cf1066d79850ceaad3bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-23 04:32:21</sys_updated_on>
+    </sys_db_view>
+</record_update>
