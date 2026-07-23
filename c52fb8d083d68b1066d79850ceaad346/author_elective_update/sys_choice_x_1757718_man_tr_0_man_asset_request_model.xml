@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="model" table="x_1757718_man_tr_0_man_asset_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>model</element>
+            <name>x_1757718_man_tr_0_man_asset_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-21 09:21:06</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>model</sys_name>
+            <sys_package display_value="MAN Training " source="x_1757718_man_tr_0">c52fb8d083d68b1066d79850ceaad346</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MAN Training ">c52fb8d083d68b1066d79850ceaad346</sys_scope>
+            <sys_update_name>sys_choice_x_1757718_man_tr_0_man_asset_request_model</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-21 09:21:06</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>software</dependent_value>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Adobe Acrobat Pro DC</label>
+            <language>en</language>
+            <name>x_1757718_man_tr_0_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-22 06:14:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-22 06:14:22</sys_updated_on>
+            <value>adobe_acrobat</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>desktop</dependent_value>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dell OptiPlex 7010</label>
+            <language>en</language>
+            <name>x_1757718_man_tr_0_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-22 06:07:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-22 06:07:54</sys_updated_on>
+            <value>dell_optiPlex_7010</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>monitor</dependent_value>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dell U2723QE</label>
+            <language>en</language>
+            <name>x_1757718_man_tr_0_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-22 06:10:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-22 06:10:43</sys_updated_on>
+            <value>dell_u2723qe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>mobile_phone</dependent_value>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Samsung Galaxy S24</label>
+            <language>en</language>
+            <name>x_1757718_man_tr_0_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-22 06:13:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-22 06:13:35</sys_updated_on>
+            <value>galaxy_s24</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>desktop</dependent_value>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HP EliteDesk 800 G9</label>
+            <language>en</language>
+            <name>x_1757718_man_tr_0_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-22 06:08:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-22 06:08:31</sys_updated_on>
+            <value>hp_elitedesk_800_G9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>mobile_phone</dependent_value>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Apple iPhone 15</label>
+            <language>en</language>
+            <name>x_1757718_man_tr_0_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-22 06:12:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-22 06:13:05</sys_updated_on>
+            <value>iPhone_15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>laptop</dependent_value>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lenovo ThinkPad T14</label>
+            <language>en</language>
+            <name>x_1757718_man_tr_0_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-22 06:07:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-22 06:07:17</sys_updated_on>
+            <value>lenovo_thinkpad_t14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>monitor</dependent_value>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lenovo ThinkVision P27h-30</label>
+            <language>en</language>
+            <name>x_1757718_man_tr_0_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-22 06:12:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-22 06:12:27</sys_updated_on>
+            <value>lenovo_thinkvision</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>software</dependent_value>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft Office 365</label>
+            <language>en</language>
+            <name>x_1757718_man_tr_0_man_asset_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-22 06:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-22 06:13:58</sys_updated_on>
+            <value>ms_office_365</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>laptop</dependent_value>
+            <element>model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dell Latitude 5540</label>
+            <language>en</language>
+            <name>x_1757718_man_tr_0_man_asset_request</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-21 09:21:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-22 06:06:47</sys_updated_on>
+            <value>dell_latitude_5540</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

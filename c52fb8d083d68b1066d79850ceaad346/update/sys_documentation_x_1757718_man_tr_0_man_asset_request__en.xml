@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="MAN Asset Request" language="en" table="x_1757718_man_tr_0_man_asset_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>MAN Asset Request</label>
+            <language>en</language>
+            <name>x_1757718_man_tr_0_man_asset_request</name>
+            <plural>MAN Asset Requests</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-21 09:02:16</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>MAN Asset Request</sys_name>
+            <sys_package display_value="MAN Training " source="x_1757718_man_tr_0">c52fb8d083d68b1066d79850ceaad346</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MAN Training ">c52fb8d083d68b1066d79850ceaad346</sys_scope>
+            <sys_update_name>sys_documentation_x_1757718_man_tr_0_man_asset_request__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-21 09:02:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

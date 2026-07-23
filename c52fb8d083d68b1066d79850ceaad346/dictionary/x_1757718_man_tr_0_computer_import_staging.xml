@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7db348b883128f1066d79850ceaad319" extends="sys_import_set_row" label="Computer Import Staging" max_length="40" name="x_1757718_man_tr_0_computer_import_staging" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Serial Number" label="Serial Number" max_length="40" name="u_serial_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ï»¿Name" label="ï»¿Name" max_length="40" name="u_rplcd_n_ascii_298282939" type="string"/>
+    </element>
+</database>
